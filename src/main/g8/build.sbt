@@ -1,5 +1,5 @@
 val commonSettings = Seq(
-  organization := "$organization$",
+  organization := "$organization_$",
   licenses := Seq("MIT" -> url("http://opensource.org/licenses/MIT")),
 
   scalaVersion := "$scala_version$",
