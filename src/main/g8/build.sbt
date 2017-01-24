@@ -16,7 +16,7 @@ lazy val root = project.in(file("."))
   .settings(commonSettings :_*)
   .settings(
     name := "$name$",
-    description := "$description$",
+    description := "Scala sandbox.",
     libraryDependencies ++= Seq(
     )
   )
